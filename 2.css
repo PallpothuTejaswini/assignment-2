@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    color:deeppink;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    padding: 100px;
+    background-color:aqua;
+    position:sticky;
+    top:0;
+    text-align:right;
+}
+.navbar a {
+  color:blueviolet;
+  text-decoration: none;
+  margin-left: 1em;
+  font-size: large;
+}
+.projects {
+  padding: 50px 20px;
+}
+
+.project-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+footer{
+    text-align: center;
+    padding:20px;
+    background:none;
+}
+
+#scrollTopBtn {
+  position: fixed;
+  bottom: 40px;
+  right: 30px;
+  display: none;
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 18px;
+  cursor: pointer;
+}
+@media screen  and (max-width: 600px) {
+    .navbar {
+        background-color: deepskyblue;
+    
+}
